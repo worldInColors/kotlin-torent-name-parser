@@ -53,15 +53,15 @@ val result = partialParser("Movie.2023.1080p.BluRay.x264")
 ./gradlew test
 ```
 
-## Original Go Version
+## Go Version
 
-This is a direct port from the original Go implementation, maintaining the same parsing logic and results.
+A lot of regexes taken from the Go version .
 
 ## Features
 
 - ✅ Complete parsing of torrent titles
 - ✅ Normalization of values
-- ✅ Language detection (40+ languages)
+- ✅ Language detection
 - ✅ Season/episode parsing
 - ✅ Quality and codec detection
 - ✅ Release group extraction
